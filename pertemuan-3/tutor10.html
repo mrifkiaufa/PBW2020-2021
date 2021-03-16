@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Javascript Part 10 : Switch Case Di Javascript</title>
+</head>
+<body>
+	<h1>Switch Case Di Javascript</h1>
+	<h2>www.malasngoding.com</h2>
+ 
+	<!-- id hasil -->
+	<div id="hasil"></div>
+ 
+	<script>
+	
+		var bunga = "Melati";
+ 
+		switch (bunga){
+			case "Mawar":
+				teks = "bunga Mawar";
+				break;
+			case "Melati":
+				teks = "bunga Melati";
+				break;
+			case "Anggrek":
+				teks = "bunga Anggrek";
+				break;
+			default:
+			    teks = "bunga tidak terdeteksi";
+		}		
+		
+		document.getElementById("hasil").innerHTML = teks;
+	</script>
+</body>
+</html>
